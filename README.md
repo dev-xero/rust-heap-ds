@@ -2,6 +2,10 @@
 This is my implementation of a standard computer science heap data structure. Both **max** and **min** heaps have been implemented.
 
 ## Description
+<p align="center">
+  <img src="diagrams/mh-tree.svg" />
+</p>
+
 A heap data structure stores data in order (non-increasing or non-decreasing). Each data item is stored in a node, which can either have two children, a parent, or both. The order (heap invariant) is maintained from root to base, and while modifying the heap (inserting or removing) we the invariant may be violated, in which case we re-heapify from root to base or from a node to the root.
 
 ## API
